@@ -17,7 +17,7 @@ def vowel_recognition(s):
             if s[i] in vowels:
                 count+=1
 
-    for j in range(times):
+    for j in range(times-1):
         for i in range(len(s)-1):
             check= s[0:(i+2)]
             for i in range(len(check)):
