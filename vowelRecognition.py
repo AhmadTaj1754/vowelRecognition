@@ -11,12 +11,12 @@ def vowel_recognition(s):
     global count
     count =0
 
-    def vowel_count_char(exaimin):
+    def vowel_count_char(examine):
         global count
         global vowels
 
-        for i in range(len(exaimin)):
-            if exaimin[i] in vowels:
+        for i in range(len(examine)):
+            if examine[i] in vowels:
                 count+=1
 
     def vowel_count_thro(ns):
